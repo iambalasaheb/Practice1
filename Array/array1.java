@@ -27,6 +27,7 @@ public class array1 {
     //by using for each loop
     for(String a:cars) {
         System.out.println("using for each loop print elements= "+a);
+//checking updated code
     }
     
 	}
