@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[workdone successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42732" started-at="2022-10-17T21:58:41 IST" finished-at="2022-10-17T21:59:24 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42732" started-at="2022-10-17T21:58:41 IST" finished-at="2022-10-17T21:59:24 IST">
+      <class name="SamplePageObject.ActitimeReportCreation">
+        <test-method status="PASS" signature="prerequisite()[pri:0, instance:SamplePageObject.ActitimeReportCreation@569cfc36]" name="prerequisite" is-config="true" duration-ms="27000" started-at="2022-10-17T21:58:41 IST" finished-at="2022-10-17T21:59:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method status="PASS" signature="actitimeReportMethod()[pri:0, instance:SamplePageObject.ActitimeReportCreation@569cfc36]" name="actitimeReportMethod" duration-ms="15664" started-at="2022-10-17T21:59:09 IST" finished-at="2022-10-17T21:59:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[workdone successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- actitimeReportMethod -->
+      </class> <!-- SamplePageObject.ActitimeReportCreation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="includeexclude suite">
+<test name="include exclude tests">
+<classes>
+<class name="AdvancetestNG.IncludeExcludeTest">
+<methods>
+<include name="AddCollaborationTestCase"/>
+<include name="AddDepartmentalTestCase"/>
+<exclude name="AddLocationTestCase"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

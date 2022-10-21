@@ -1,0 +1,25 @@
+package JavaBasic;
+public class StaticVariable {
+
+	static int age=25;
+	int empId=101;
+	void displaye() {
+		int empId=505;
+		System.out.println("empId: "+empId);//505
+		System.out.println("NSGV empId: "+this.empId);//101
+	}
+	public static void main(String[] args) {
+
+		int age=10;
+		System.out.println("age: "+age);
+		System.out.println("SGV age: "+StaticVariable.age);
+		
+		StaticVariable s1=new StaticVariable();
+		s1.displaye();
+		System.out.println(s1.empId);
+	}
+}
+/**
+this keyword is used to differentiate non-static global variable and local variable
+this keyword should used only inside nonstatic method
+*/

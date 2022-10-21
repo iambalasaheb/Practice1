@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parrelel execution for test" parallel="methods" thread-count="2">
+<test name="chrome">
+<parameter name="browser" value="firefox"/>
+<parameter name="username" value="admin"/>
+<parameter name="password" value="Test@123"/>
+<classes>
+<class name="ParelleleExecution.ParellelExecutionForTest"/>
+</classes>
+</test>
+<test name="firefox">
+<parameter name="browser" value="chrome"/>
+<parameter name="username" value="admin"/>
+<parameter name="password" value="Test@123"/>
+<classes>
+<class name="ParelleleExecution.ParellelExecutionForTest"/>
+</classes>
+</test>
+</suite>

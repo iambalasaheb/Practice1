@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="grouping of suite">
+<test name="grouping of tests">
+<groups>
+<run>
+<include name="regression"/>
+<exclude name="smoke"/>
+</run>
+</groups>
+<classes>
+<class name="AdvancetestNG.GroupExample"/>
+</classes>
+</test>
+</suite>

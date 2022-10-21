@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Class suite" parallel="none">
+<test name="class tests">
+<classes>
+<class name="AdvancetestNG.IncludeExcludeTest"/>
+<class name="AdvancetestNG.GroupExample"/>
+</classes>
+</test>
+</suite>

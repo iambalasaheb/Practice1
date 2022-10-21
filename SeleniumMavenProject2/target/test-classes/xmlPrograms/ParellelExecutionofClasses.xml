@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parellel execution of classes" parallel="classes" thread-count="2">
+<test name="parellel tests">
+<classes>
+<class name="AdvancetestNG.GroupExample"/>
+<class name="AdvancetestNG.IncludeExcludeTest"/>
+</classes>
+</test>
+</suite>

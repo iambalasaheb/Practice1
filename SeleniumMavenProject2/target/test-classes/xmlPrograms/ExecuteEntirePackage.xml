@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="package suite">
+<test name="package test">
+<packages>
+<package name="AdvancetestNG">
+</package>
+</packages>
+</test>
+</suite>

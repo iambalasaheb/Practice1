@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Preserve order test runs">
+  <test name="Regression 1" preserve-order="true">
+    <classes>
+      <class name="com.pack.preserve.ClassOne"/>
+      <class name="com.pack.preserve.ClassTwo"/>
+      <class name="com.pack.preserve.ClassThree"/>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parellel execution for method" parellel="methods" thread-count="2">
+<test name="parellelmethods">
+<classes>
+<class name="ParelleleExecution.ParallelExecutionForMethod">
+</class>
+</classes>
+</test>
+</suite>
